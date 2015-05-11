@@ -41,7 +41,7 @@ void readFromMem(DWORD address, LPCSTR windowName)
 	long int value;
 	HWND windowHandle = FindWindow(0, windowName);
 	 
-	if(! windowHandle)
+	if (! windowHandle)
 	{
 		cout << "error, can't find window" << endl;
 	}
@@ -52,7 +52,7 @@ void readFromMem(DWORD address, LPCSTR windowName)
 		GetWindowThreadProcessId(windowHandle, &processId);
 		HANDLE processHandle = OpenProcess(PROCESS_VM_READ, FALSE, processId);
 		
-		if(! processHandle)
+		if (! processHandle)
 		{
 			cout << "error, can't find process" << endl;
 		}

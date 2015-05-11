@@ -1,0 +1,2 @@
+- error handling <br>
+- proper logic (current it attemps to display money amount even if process handle not found)

@@ -1,3 +1,1 @@
-- error handling
-- proper logic (current it attemps to display money amount even if process handle not found)
-- maybe do something about the run as administrator? 
+

@@ -36,7 +36,7 @@ int main()
 		else
 		{
 			writeToMem(address, windowName, newAmount);
-			cout << "Succes" << endl << endl;
+			cout << "Success" << endl << endl;
 		}
 		
 		system("pause");
